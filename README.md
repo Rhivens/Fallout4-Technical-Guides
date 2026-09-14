@@ -12,11 +12,14 @@ This repository publishes procedures developed from real modding projects and th
 - [Installing Addictol 1.5.2 + Crash Logger 1.5 in Wasteland of Depravity](guides/addictol/wasteland-of-depravity.md)
 - [Generic Addictol integration checklist](guides/addictol/generic-integration-checklist.md)
 
+### Animation Tools
+
+- [Rebuilding NAFicator 0.11.72 output after adding or removing animations](guides/animations/naficator-add-remove-animations.md)
+
 ## Planned Topics
 
 Future guides may cover:
 
-- adding and removing NAF animations with Naficator;
 - starting Nuka Ride and MSMA from a controlled Pre-War profile;
 - converting CBBE outfits to Fusion Girl;
 - rebuilding generated outputs with Synthesis, Complex Item Sorter, FOLIP, TexGen and xLODGen;
