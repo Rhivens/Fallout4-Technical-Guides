@@ -160,6 +160,10 @@ The defect:
 
 This isolated the problem from the general compatibility patch.
 
+Nuka Ride was also active in the tested setup and substantially modifies the Nuka-World region, including its forest. The most likely explanation is therefore a compatibility interaction between the seasonal Maple assets/references and Nuka Ride's regional changes, rather than a universally broken Seasons Change mesh. This relationship was not proven by a complete record-by-record comparison, so it should be treated as a strongly supported hypothesis rather than a confirmed fault attribution.
+
+Users without Nuka Ride should not assume that they need this fix.
+
 ### Diagnosis
 
 The affected references all used the same seasonal base object:
@@ -226,7 +230,7 @@ The fix trades some of that Maple model's specific seasonal appearance for a sta
 
 ### Version warning
 
-This fix was developed for the tested Seasons Change 3.0 setup. Version 3.1 provides a separate tree-branch wind fix. Do not install this custom override automatically on 3.1.
+This fix was developed for the tested Seasons Change 3.0 + Nuka Ride setup. Version 3.1 provides a separate tree-branch wind fix. Do not install this custom override automatically on 3.1, on a setup without Nuka Ride, or on a different Nuka Ride release.
 
 First test without it. Apply or recreate a targeted patch only if the same base object and mesh defect are confirmed.
 
