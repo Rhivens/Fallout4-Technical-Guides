@@ -21,6 +21,11 @@ This repository publishes procedures developed from real modding projects and th
 - [BodySlide guides index](guides/bodyslide/)
 - [Converting CBBE outfits to Fusion Girl](guides/bodyslide/cbbe-to-fusion-girl.md)
 
+### Graphics and Upscaling
+
+- [Graphics guides index](guides/graphics/)
+- [Upscaling Custom with DLSS Neural Rendering](guides/graphics/upscaling-custom-dlss5.md)
+
 ### Generation Workflows
 
 - [Generation workflows index](guides/workflows/)
