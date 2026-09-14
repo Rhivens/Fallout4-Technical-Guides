@@ -4,7 +4,7 @@
 
 **Document type:** Tested historical procedure  
 **Last revised:** September 14, 2026  
-**Tested NAFicator version:** 0.1.72  
+**Tested NAFicator version:** 0.11.72  
 **Tested runtime:** Fallout 4 1.10.163 / F4SE 0.6.23  
 **Mod manager:** Mod Organizer 2  
 **Official mod page:** [NAFicator on Nexus Mods](https://www.nexusmods.com/fallout4/mods/88459)  
@@ -12,7 +12,7 @@
 **Animation framework:** [Native Animation Framework](https://github.com/Deweh/Native-Animation-Framework)
 
 > [!WARNING]
-> This procedure was validated with **NAFicator 0.1.72** on the Fallout 4 OG runtime. The current public source tree identifies itself as a newer 0.9.6 build. Do not assume that file locations, configuration keys, runtime support, or generated-output behavior remain identical in later releases. Read the current mod instructions before running the tool.
+> This procedure was validated with **NAFicator 0.11.72** on the Fallout 4 OG runtime. The current public source tree identifies itself as a newer 0.9.6 build. Do not assume that file locations, configuration keys, runtime support, or generated-output behavior remain identical in later releases. Read the current mod instructions before running the tool.
 
 ## Purpose
 
@@ -60,7 +60,7 @@ For removal, merely uninstalling the animation pack is not sufficient if an olde
 
 1. Disable the currently active generated NAFicator output.
 2. Enable the NAFicator mod in the MO2 left pane.
-3. In the tested 0.1.72 configuration, set:
+3. In the tested 0.11.72 configuration, set:
 
    ```ini
    bNaficatorEnable=1
@@ -80,7 +80,7 @@ For removal, merely uninstalling the animation pack is not sufficient if an olde
 10. Check the directory level. The output mod must expose the generated `NAF` directory at the level expected by the installed toolchain, without an accidental extra `Data` directory.
 11. Clear `Overwrite` after the output mod has been created.
 12. Disable NAFicator for normal gameplay.
-13. In the tested 0.1.72 configuration, restore:
+13. In the tested 0.11.72 configuration, restore:
 
    ```ini
    bNaficatorEnable=0
