@@ -4,7 +4,10 @@
 
 **Document type:** Generic checklist  
 **Last revised:** September 14, 2026  
-**Official mod page:** [Addictol on Nexus Mods](https://www.nexusmods.com/fallout4/mods/84214)
+**Official mod page:** [Addictol on Nexus Mods](https://www.nexusmods.com/fallout4/mods/84214)  
+**Official source:** [Dear-Modding-FO4/Addictol](https://github.com/Dear-Modding-FO4/Addictol)  
+**Official releases:** [Addictol releases](https://github.com/Dear-Modding-FO4/Addictol/releases)  
+**Official Crash Logger source:** [Dear-Modding-FO4/AddictolCrashLogger](https://github.com/Dear-Modding-FO4/AddictolCrashLogger)
 
 ## Scope
 
@@ -12,7 +15,10 @@ This checklist describes a controlled method for evaluating and integrating Addi
 
 It is **not** a universal preset and does not provide a universal list of plugins to remove. Engine-fix stacks vary significantly between modlists, runtimes and personal installations.
 
-The separate [World of Depravity guide](world-of-depravity.md) documents one exact setup that was tested successfully. Its removal list must not be copied blindly into another profile.
+The separate [World of Depravity guide](world-of-depravity.md) documents one exact setup tested with **Addictol 1.5.2 and Addictol Crash Logger 1.5**. Its removal list must not be copied blindly into another profile.
+
+> [!IMPORTANT]
+> The WoD test does **not** cover Addictol 1.6 or later. Do not reuse the 1.5.2 TOML values, component-removal list, or Crash Logger assumptions for 1.6+ without a fresh upstream review and a complete retest. That migration is intentionally deferred while the upstream project is evolving rapidly.
 
 ## 1. Record the Current Baseline
 
@@ -55,7 +61,7 @@ Keep the original engine fixes installed but disabled during the validation peri
 
 ## 3. Check the Current Addictol Release
 
-Download Addictol only from its official page.
+Download Addictol only from its official page or official GitHub releases. Confirm the current Crash Logger source and compatibility at the same time.
 
 Before installation, read the current:
 
@@ -67,7 +73,7 @@ Before installation, read the current:
 - configuration documentation;
 - known incompatibilities.
 
-This repository documents a successful test with Addictol 1.5.2, but a newer release may use different options or replace a different set of components.
+This repository documents a successful test with Addictol 1.5.2 and Addictol Crash Logger 1.5. A newer release may use different options, packaging, logging components, or replacement rules.
 
 ## 4. Build an Overlap Matrix
 
@@ -202,7 +208,7 @@ Do not combine the Addictol test with another major mod installation. Keep the p
 
 ## 9. Mid-Game Use
 
-Addictol 1.5.2 was installed successfully mid-game on the tested WoD profile. Existing saves loaded, new saves were created and a full restart/reload cycle succeeded.
+Addictol 1.5.2 with Addictol Crash Logger 1.5 was installed successfully mid-game on the tested WoD profile. Existing saves loaded, new saves were created and a full restart/reload cycle succeeded.
 
 This is evidence for that setup only. It does not prove universal mid-game compatibility.
 
