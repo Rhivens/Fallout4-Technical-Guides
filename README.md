@@ -21,6 +21,13 @@ This repository publishes procedures developed from real modding projects and th
 - [BodySlide guides index](guides/bodyslide/)
 - [Converting CBBE outfits to Fusion Girl](guides/bodyslide/cbbe-to-fusion-girl.md)
 
+## Published Tools
+
+### xEdit
+
+- [xEdit tools index](tools/xedit/)
+- [Pervert Location Loss Scanner v6](tools/xedit/pervert-location-loss-scanner/README.md)
+
 ## Planned Topics
 
 Future guides may cover:
@@ -30,10 +37,6 @@ Future guides may cover:
 - integrating Seasons into a complete generation workflow;
 - Creation Kit dialogue and scene authoring;
 - Fallout 4 DDS and BGSM workflows.
-
-Future tools may include:
-
-- xEdit scripts developed and validated during real load-order audits.
 
 ## Documentation Labels
 
