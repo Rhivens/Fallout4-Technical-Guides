@@ -9,7 +9,7 @@ This repository publishes procedures developed from real modding projects and th
 ### Addictol
 
 - [Addictol guides index](guides/addictol/)
-- [Installing Addictol in World of Depravity](guides/addictol/world-of-depravity.md)
+- [Installing Addictol 1.5.2 + Crash Logger 1.5 in World of Depravity](guides/addictol/world-of-depravity.md)
 - [Generic Addictol integration checklist](guides/addictol/generic-integration-checklist.md)
 
 ## Planned Topics
