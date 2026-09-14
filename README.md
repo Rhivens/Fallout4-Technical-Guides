@@ -26,6 +26,11 @@ This repository publishes procedures developed from real modding projects and th
 - [Generation workflows index](guides/workflows/)
 - [Complete output generation workflow](guides/workflows/complete-output-generation-workflow.md)
 
+### Environment and Seasons
+
+- [Environment guides index](guides/environment/)
+- [Integrating Seasons Change into a complete generation workflow](guides/environment/seasons-change-generation-workflow.md)
+
 ## Published Tools
 
 ### xEdit
@@ -38,7 +43,6 @@ This repository publishes procedures developed from real modding projects and th
 Future guides may cover:
 
 - starting Nuka Ride and MSMA from a controlled Pre-War profile;
-- integrating Seasons into a complete generation workflow;
 - Creation Kit dialogue and scene authoring;
 - Fallout 4 DDS and BGSM workflows.
 
