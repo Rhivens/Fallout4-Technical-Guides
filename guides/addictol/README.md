@@ -8,7 +8,7 @@
 - [Addictol Crash Logger source repository](https://github.com/Dear-Modding-FO4/AddictolCrashLogger)
 
 > [!WARNING]
-> The tested World of Depravity guide applies **only to Addictol 1.5.2 with Addictol Crash Logger 1.5**.
+> The tested Wasteland of Depravity guide applies **only to Addictol 1.5.2 with Addictol Crash Logger 1.5**.
 >
 > Do not apply its version-specific configuration or removal list to Addictol 1.6 or later without a new audit. Migration to the newer Addictol branch has been deliberately deferred because the upstream code and configuration model are evolving quickly.
 
@@ -20,7 +20,7 @@ The guides in this directory deliberately separate one tested modlist procedure 
 
 | Guide | Scope | Status |
 |---|---|---|
-| [World of Depravity installation](world-of-depravity.md) | Exact procedure tested on a modified WoD installation | Tested guide |
+| [Wasteland of Depravity installation](wasteland-of-depravity.md) | Exact procedure tested on a modified WoD installation | Tested guide |
 | [Generic integration checklist](generic-integration-checklist.md) | Decision and validation framework for other MO2 setups | Generic checklist |
 
 ## Important Distinction
@@ -31,7 +31,7 @@ For another modlist or personal installation, inventory the currently installed 
 
 ## Tested Reference Setup
 
-- World of Depravity 1.7.4, manually updated to 1.7.5.1
+- Wasteland of Depravity 1.7.4, manually updated to 1.7.5.1
 - Fallout 4 runtime 1.10.163
 - F4SE 0.6.23
 - Mod Organizer 2
