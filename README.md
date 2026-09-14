@@ -21,6 +21,11 @@ This repository publishes procedures developed from real modding projects and th
 - [BodySlide guides index](guides/bodyslide/)
 - [Converting CBBE outfits to Fusion Girl](guides/bodyslide/cbbe-to-fusion-girl.md)
 
+### Generation Workflows
+
+- [Generation workflows index](guides/workflows/)
+- [Complete output generation workflow](guides/workflows/complete-output-generation-workflow.md)
+
 ## Published Tools
 
 ### xEdit
@@ -33,7 +38,6 @@ This repository publishes procedures developed from real modding projects and th
 Future guides may cover:
 
 - starting Nuka Ride and MSMA from a controlled Pre-War profile;
-- rebuilding generated outputs with Synthesis, Complex Item Sorter, FOLIP, TexGen and xLODGen;
 - integrating Seasons into a complete generation workflow;
 - Creation Kit dialogue and scene authoring;
 - Fallout 4 DDS and BGSM workflows.
