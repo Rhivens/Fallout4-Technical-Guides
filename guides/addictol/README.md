@@ -1,6 +1,16 @@
 # Addictol Guides
 
-[Addictol on Nexus Mods](https://www.nexusmods.com/fallout4/mods/84214)
+## Official Project Links
+
+- [Addictol on Nexus Mods](https://www.nexusmods.com/fallout4/mods/84214)
+- [Addictol source repository](https://github.com/Dear-Modding-FO4/Addictol)
+- [Addictol releases](https://github.com/Dear-Modding-FO4/Addictol/releases)
+- [Addictol Crash Logger source repository](https://github.com/Dear-Modding-FO4/AddictolCrashLogger)
+
+> [!WARNING]
+> The tested World of Depravity guide applies **only to Addictol 1.5.2 with Addictol Crash Logger 1.5**.
+>
+> Do not apply its version-specific configuration or removal list to Addictol 1.6 or later without a new audit. Migration to the newer Addictol branch has been deliberately deferred because the upstream code and configuration model are evolving quickly.
 
 Addictol is an engine-level Fallout 4 component. It should be approached as an infrastructure change, not as a cosmetic or ordinary gameplay mod.
 
@@ -26,6 +36,7 @@ For another modlist or personal installation, inventory the currently installed 
 - F4SE 0.6.23
 - Mod Organizer 2
 - Addictol 1.5.2
+- Addictol Crash Logger 1.5
 - SKAR disabled
 - custom ALR-based loading screens
 
