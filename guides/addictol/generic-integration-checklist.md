@@ -15,7 +15,7 @@ This checklist describes a controlled method for evaluating and integrating Addi
 
 It is **not** a universal preset and does not provide a universal list of plugins to remove. Engine-fix stacks vary significantly between modlists, runtimes and personal installations.
 
-The separate [World of Depravity guide](world-of-depravity.md) documents one exact setup tested with **Addictol 1.5.2 and Addictol Crash Logger 1.5**. Its removal list must not be copied blindly into another profile.
+The separate [Wasteland of Depravity guide](wasteland-of-depravity.md) documents one exact setup tested with **Addictol 1.5.2 and Addictol Crash Logger 1.5**. Its removal list must not be copied blindly into another profile.
 
 > [!IMPORTANT]
 > The WoD test does **not** cover Addictol 1.6 or later. Do not reuse the 1.5.2 TOML values, component-removal list, or Crash Logger assumptions for 1.6+ without a fresh upstream review and a complete retest. That migration is intentionally deferred while the upstream project is evolving rapidly.
