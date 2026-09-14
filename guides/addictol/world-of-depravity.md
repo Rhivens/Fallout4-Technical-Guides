@@ -5,9 +5,13 @@
 **Guide version:** 1.1 — September 14, 2026  
 **Tested setup:** World of Depravity 1.7.4, manually updated to 1.7.5.1 — Fallout 4 runtime 1.10.163 / F4SE 0.6.23 — Mod Organizer 2  
 **Tested Addictol version:** 1.5.2  
-**Nexus page:** [Addictol on Nexus Mods](https://www.nexusmods.com/fallout4/mods/84214)
+**Tested Addictol Crash Logger version:** 1.5  
+**Official mod page:** [Addictol on Nexus Mods](https://www.nexusmods.com/fallout4/mods/84214)  
+**Official source:** [Dear-Modding-FO4/Addictol](https://github.com/Dear-Modding-FO4/Addictol)  
+**Official Crash Logger source:** [Dear-Modding-FO4/AddictolCrashLogger](https://github.com/Dear-Modding-FO4/AddictolCrashLogger)
 
-> This guide records a test performed with Addictol 1.5.2. Always check the current Nexus description, file notes and changelog before applying it to another setup.
+> [!WARNING]
+> This procedure applies **only to Addictol 1.5.2 with Addictol Crash Logger 1.5**. Its configuration values and WoD removal list have not been validated for Addictol 1.6 or later. The migration to 1.6+ is intentionally deferred until the rapidly evolving upstream project can be audited and the complete procedure retested.
 
 ---
 
@@ -77,7 +81,7 @@ Download Addictol from its [official Nexus Mods page](https://www.nexusmods.com/
 Install the following in MO2:
 
 1. **Addictol 1.5.2**
-2. **Addictol Crash Logger**
+2. **Addictol Crash Logger 1.5**
 
 It is recommended to install them as two separate MO2 mods. This makes checking, updating, and rolling back much easier.
 
@@ -284,7 +288,7 @@ Context:
 - SKAR disabled;
 - custom loading screens based on ALR;
 - Addictol 1.5.2;
-- Addictol Crash Logger enabled.
+- Addictol Crash Logger 1.5 enabled.
 
 ---
 
@@ -462,7 +466,7 @@ A rollback is recommended in case of:
 
 1. Back up the MO2 left and right panes.
 2. Install Addictol 1.5.2.
-3. Install Addictol Crash Logger.
+3. Install Addictol Crash Logger 1.5.
 4. Disable the fifteen previous WoD fixes listed in this guide.
 5. At minimum, set:
 
