@@ -55,14 +55,16 @@ This fixes rendering bugs affecting temporal techniques such as TAA, upscaling a
 
 https://www.nexusmods.com/fallout4/mods/79853
 
-Use the correct download for your setup:
+Use the correct download for **your own modpack**:
 
 ```text
-PRP version     -> if you actually use Previsibines Repair Pack
-Vanilla version -> if you do not use PRP
+PRP version     -> if your current setup actually uses Previsibines Repair Pack
+Vanilla version -> if your current setup does not use Previsibines Repair Pack
 ```
 
-Do not choose the PRP file merely because another optimization patch happens to contain `PRP` in its name.
+The test environment documented in this guide used the **Vanilla** version because the actual **Previsibines Repair Pack had been removed from that NORA profile**. Another optimization or compatibility patch may still contain `PRP` in its file or mod name, but that alone does **not** mean the full Previsibines Repair Pack is active.
+
+Choose this requirement according to the real state of **your own load order**, not according to the tested profile and not merely because another mod happens to contain `PRP` in its name.
 
 ### This Made My Spline Stiff
 
