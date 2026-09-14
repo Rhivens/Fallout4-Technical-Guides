@@ -31,6 +31,12 @@ This repository publishes procedures developed from real modding projects and th
 - [Environment guides index](guides/environment/)
 - [Integrating Seasons Change into a complete generation workflow](guides/environment/seasons-change-generation-workflow.md)
 
+### Nuka Ride and MSMA
+
+- [Nuka Ride and MSMA guides index](guides/nuka-ride-msma/)
+- [Controlled Pre-War profile and late MSMA initialization](guides/nuka-ride-msma/controlled-prewar-profile.md)
+- [Route selection, deferred starts and Sanctuary activation](guides/nuka-ride-msma/route-selection-and-sanctuary.md)
+
 ## Published Tools
 
 ### xEdit
@@ -42,7 +48,6 @@ This repository publishes procedures developed from real modding projects and th
 
 Future guides may cover:
 
-- starting Nuka Ride and MSMA from a controlled Pre-War profile;
 - Creation Kit dialogue and scene authoring;
 - Fallout 4 DDS and BGSM workflows.
 
