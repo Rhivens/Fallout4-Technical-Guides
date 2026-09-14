@@ -52,6 +52,8 @@ Do not add or remove content halfway through the chain.
 
 Inspect what changed instead of automatically rebuilding everything.
 
+If Seasons Change is installed, finish its generated patch and all environmental compatibility patches before the FOLIP stage. See [Integrating Seasons Change into the generation workflow](../environment/seasons-change-generation-workflow.md).
+
 ## 1. BodySlide
 
 Run BodySlide first when body or outfit meshes changed.
