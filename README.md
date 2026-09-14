@@ -16,12 +16,16 @@ This repository publishes procedures developed from real modding projects and th
 
 - [Rebuilding NAFicator 0.11.72 output after adding or removing animations](guides/animations/naficator-add-remove-animations.md)
 
+### BodySlide and Outfit Studio
+
+- [BodySlide guides index](guides/bodyslide/)
+- [Converting CBBE outfits to Fusion Girl](guides/bodyslide/cbbe-to-fusion-girl.md)
+
 ## Planned Topics
 
 Future guides may cover:
 
 - starting Nuka Ride and MSMA from a controlled Pre-War profile;
-- converting CBBE outfits to Fusion Girl;
 - rebuilding generated outputs with Synthesis, Complex Item Sorter, FOLIP, TexGen and xLODGen;
 - integrating Seasons into a complete generation workflow;
 - Creation Kit dialogue and scene authoring;
