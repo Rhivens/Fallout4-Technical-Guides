@@ -12,7 +12,7 @@
 **Animation framework:** [Native Animation Framework](https://github.com/Deweh/Native-Animation-Framework)
 
 > [!WARNING]
-> This procedure was validated with **NAFicator 0.11.72** on the Fallout 4 OG runtime. The current public source tree identifies itself as a newer 0.9.6 build. Do not assume that file locations, configuration keys, runtime support, or generated-output behavior remain identical in later releases. Read the current mod instructions before running the tool.
+> This procedure was validated with **NAFicator 0.11.72** on the Fallout 4 OG runtime. The public source tree currently identifies itself as a different 0.9.6 build, whose numbering does not clearly map to the tested Nexus release. Do not assume that file locations, configuration keys, runtime support, or generated-output behavior are identical across those builds or later releases. Read the current mod instructions before running the tool.
 
 ## Purpose
 
