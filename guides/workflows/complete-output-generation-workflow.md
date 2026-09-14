@@ -275,7 +275,7 @@ Reaching the main menu is not sufficient validation.
 - **Sheson, Ehamloptiran and Zilav** — credited by FOLIP for xLODGen; **Sheson** for TexGen.
 - **Mutagen Modding community** — [Synthesis](https://github.com/Mutagen-Modding/Synthesis).
 - **M8r98a4f2 and sorter-module authors** — Complex Item Sorter ecosystem.
-- **iAmRillie** — thanks for the workflow discussion that helped identify and verify the obsolete post-generation FOLIP step.
+- **iAmRillie** — author of the general generation-process reference shared on the Wasteland of Depravity Discord, which served as the starting point for this workflow. This guide independently restructures and updates that earlier process for FOLIP 8.x, including removal of the obsolete post-generation FOLIP pass.
 - **Wasteland of Depravity community** — original modlist context from which the tested workflow was adapted.
 
 No third-party binary, archive or documentation is redistributed here.
