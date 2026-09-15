@@ -42,6 +42,11 @@ This repository publishes procedures developed from real modding projects and th
 - [Controlled Pre-War profile and late MSMA initialization](guides/nuka-ride-msma/controlled-prewar-profile.md)
 - [Route selection, deferred starts and Sanctuary activation](guides/nuka-ride-msma/route-selection-and-sanctuary.md)
 
+### Modlist Evolution
+
+- [Modlist evolution index](guides/modlist-evolution/)
+- [From Wasteland of Depravity 1.7.4 to NORA](guides/modlist-evolution/wod-1.7.4-to-nora.md)
+
 ## Published Tools
 
 ### xEdit
