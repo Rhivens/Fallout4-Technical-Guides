@@ -492,6 +492,104 @@ bRobCoPatcherCache = false
 
 ---
 
+# Preliminary Migration Notes — Addictol 1.6
+
+> [!CAUTION]
+> **Not yet tested on the setup documented above.**  
+> This section records the current WoD Discord migration procedure for Addictol 1.6. It is provided as a preparation note only. The validated configuration in this guide remains **Addictol 1.5.2 + Addictol Crash Logger 1.5** until the 1.6 migration is fully tested.
+
+## What Changes in 1.6
+
+The fifteen fixes already disabled for Addictol 1.5.2 remain disabled. Addictol 1.6 additionally replaces three fixes that should also be disabled:
+
+16. `Armor Penetration Bug Fix - F4SE`
+17. `Moon Rotation Fix`
+18. `Sprint Stuttering Fix`
+
+The complete current WoD removal list for Addictol 1.6 is therefore:
+
+1. `Baka MaxPapyrusOps`
+2. `Mentats - F4SE`
+3. `Mentats - WoD Config`
+4. `X-Cell`
+5. `X-Cell - WoD Config`
+6. `Buffout 4`
+7. `Buffout 4 - WoD Config`
+8. `Buffout and X-Cell - New WoD Configs`
+9. `Interior NavCut Fix`
+10. `Daytripper`
+11. `Daytripper - WoD Config`
+12. `Persistent Volume Sliders`
+13. `Long Save Bug Fix`
+14. `Disk Cache Enabler`
+15. `Companion Shoots at Player Fix - F4SE`
+16. `Armor Penetration Bug Fix - F4SE`
+17. `Moon Rotation Fix`
+18. `Sprint Stuttering Fix`
+
+Do not delete these mods immediately. Disable them so rollback remains easy.
+
+## Crash Logger
+
+Install the matching **Addictol Crash Logger** file from the Main Files section so crash logs remain available after Buffout 4 is disabled.
+
+## FaceGen Setting
+
+Open:
+
+```text
+F4SE\Plugins\Addictol.toml
+```
+
+and set:
+
+```toml
+bFacegen = false
+```
+
+This remains part of the current WoD procedure for Addictol 1.6.
+
+## Loading Screens
+
+The tested 1.5.2 setup in this guide uses:
+
+```toml
+bLoadScreen = false
+```
+
+to preserve WoD / ALR / custom loading screens.
+
+This value should be **rechecked during the 1.6 migration** before being considered validated for 1.6.
+
+## SKAR / RobCo Patcher Cache
+
+The old 1.5.2 instruction to set:
+
+```toml
+bRobCoPatcherCache = true
+```
+
+when SKAR is enabled **does not apply to Addictol 1.6**. The `bRobCoPatcherCache` option has been removed from Addictol 1.6 because caching is handled upstream by current RobCo Patcher builds.
+
+## Suggested 1.6 Migration Order
+
+1. Back up the MO2 left pane, right pane, and test saves.
+2. Replace Addictol 1.5.2 with Addictol 1.6.
+3. Install the matching Addictol Crash Logger.
+4. Keep the original fifteen replaced fixes disabled.
+5. Disable `Armor Penetration Bug Fix - F4SE`, `Moon Rotation Fix`, and `Sprint Stuttering Fix`.
+6. Set `bFacegen = false`.
+7. Do not carry over the old `bRobCoPatcherCache` instruction.
+8. Recheck loading-screen behavior before assuming the old `bLoadScreen` value is still correct.
+9. Perform the full validation procedure from this guide.
+10. Keep the previous Addictol 1.5.2 setup available for rollback until the new version has been tested over multiple sessions.
+
+## Current Recommendation
+
+Because Addictol is still evolving quickly upstream, there is no need to migrate a stable working WoD installation immediately. Waiting for development activity to settle, or for a specific build to be clearly recommended by the WoD team, is a reasonable approach.
+
+---
+
 ## Sharing Notice and No Support
 
 This guide may be freely shared within the WoD community as long as the following remain included:
