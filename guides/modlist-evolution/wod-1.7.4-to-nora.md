@@ -1,6 +1,6 @@
 # From Wasteland of Depravity 1.7.4 to NORA
 
-> **Modlist evolution case study — snapshot dated September 7, 2026**
+> **Modlist evolution case study — source comparison dated September 7, updated September 15, 2026**
 >
 > This document compares the Mod Organizer 2 left pane of a Wasteland of Depravity 1.7.4 base with a heavily customized NORA/Eleanor setup. Only meaningful differences are listed.
 
@@ -117,13 +117,11 @@ See [Rebuilding NAFicator after animation changes](../animations/naficator-add-r
 | Component | NORA status | Note |
 |---|---|---|
 | Nuka Ride 7.1.4 | Added/updated | Active Nora route baseline in this snapshot |
-| Nuka Ride 7.1.3c | Disabled | Previous release retained for rollback |
 | Nuka Ride 7 - FaceGen 1.6 | Updated | Replaced FaceGen 1.5 |
 | Nuka Ride 7 - Voices 1.7 | Updated | Replaced Voices 1.5 |
 | Nuka Ride 7 - BodySlide Fusion Girl 1.4 | Added | Nuka Ride outfit generation |
 | NAF Check Patch for 7.1.4 | Custom/temporary patch | Compatibility fix for the active release |
 | MSMA Stable 13.4 | Added/updated | Active MSMA release in this snapshot |
-| MSMA Stable 13.1 | Disabled | Previous release retained for rollback |
 | Scripted Face Tints 1.3.2 | Updated | Replaced 1.3.1 |
 | SFT HiPoly Redux patch (Fusion Girl Seamless) | Added | HiPoly/Fusion Girl compatibility |
 | Captive Tattoos 4.2 | Updated | Active tattoo framework/content baseline |
@@ -293,7 +291,7 @@ Use the comparison to identify possibilities, then reproduce the validation proc
 
 ## Snapshot limitations
 
-- The source comparison was captured on September 7, 2026.
+- The source comparison was captured on September 7, 2026 and the public snapshot was updated on September 15 after obsolete rollback versions were removed from MO2.
 - Mods unchanged from WoD 1.7.4 are intentionally omitted.
 - The exact right-pane plugin order is documented separately in the private working project.
 - Personal patches are examples of local problem solving, not distributed compatibility products.
