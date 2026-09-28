@@ -47,6 +47,11 @@ This repository publishes procedures developed from real modding projects and th
 - [Modlist evolution index](guides/modlist-evolution/)
 - [From Wasteland of Depravity 1.7.4 to NORA](guides/modlist-evolution/wod-1.7.4-to-nora.md)
 
+### Papyrus and Troubleshooting
+
+- [Papyrus and troubleshooting guides index](guides/papyrus/)
+- [DN119Fight Timer Fix — preventing repeated `IsDead(None)` Papyrus errors](guides/papyrus/dn119fight-timer-fix.md)
+
 ## Published Tools
 
 ### xEdit
